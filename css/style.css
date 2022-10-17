@@ -37,8 +37,8 @@ main{
     height: calc(100% / 10);
 }
 
-.light-green{
-    background-color: bisque;
+.blue{
+    background-color: cadetblue;
 }
 
 

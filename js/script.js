@@ -19,6 +19,9 @@ function play(){
         cell.innerHTML = `
             <span>${numCell}</span>
         `;
+        cell.addEventListener('click', function(){
+            this.classList.add('blue');
+        })
         return cell;
     }
 
