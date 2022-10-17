@@ -1,0 +1,48 @@
+/* Utility */
+
+/* Generals */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header{
+    background-color: white;
+    height: 80px;
+}
+
+/* Main Section */
+main{
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+    background-color: aquamarine;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.light-gteen{
+    background-color: bisque;
+}
+
+
+/* Footer */
+footer{
+    height: 40px;
+}

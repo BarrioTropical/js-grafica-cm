@@ -7,6 +7,7 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
@@ -18,22 +19,85 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="vh-100">
     <!-- Header -->
-   
+   <header class="d-flex justify-content-around align-items-center text-black">
+    <h3>Logo</h3>
+    <div class="d-flex">
+        <select class="form-control" name="livello" id="livello">
+            <option value="1">Easy</option>
+            <option value="2">Medium</option>
+            <option value="3">Hard</option>
+        </select>
+        <button class="btn btn-primary ms-1" id="play">
+            Play
+        </button>
+    </div>
+   </header>
     <!-- End Header -->
 
     <!-- Main Section -->
     <main>
-    
+    <h2 class="text-center p-3"> Let's select a level and play</h2>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="grid">
+            <div class="square">
+                <span>1</span>
+            </div>
+            <div class="square">
+                <span>2</span>
+            </div>
+            <div class="square">
+                <span>3</span>
+            </div>
+            <div class="square">
+                <span>4</span>
+            </div>
+            <div class="square">
+                <span>5</span>
+            </div>
+            <div class="square">
+                <span>1</span>
+            </div>
+            <div class="square">
+                <span>2</span>
+            </div>
+            <div class="square">
+                <span>3</span>
+            </div>
+            <div class="square">
+                <span>4</span>
+            </div>
+            <div class="square">
+                <span>5</span>
+            </div>
+            <div class="square">
+                <span>1</span>
+            </div>
+            <div class="square">
+                <span>2</span>
+            </div>
+            <div class="square">
+                <span>3</span>
+            </div>
+            <div class="square">
+                <span>4</span>
+            </div>
+            <div class="square">
+                <span>5</span>
+            </div>
+        </div>
+    </div> 
 
     </main>
     <!-- End Main Section -->
 
     <!-- Footer -->
-    <footer>
-
+    <footer class="container text-center">
+        Made with &hearts; by Boolean 
     </footer>
     <!-- End Footer -->
+    </div>
 
     <!-- Javascript -->
     <script src="./js/script.js"></script>
